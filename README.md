@@ -9,7 +9,7 @@ Evaluate the precision of user position detection in both Unity-based simulated 
 AR must track user movement and location with high accuracy and consistency. This study studies an AR tracking method that leverages third-view IoT cameras to enhance enhancing predictions concerning user location and pose.
 
 ### Experimental Procedure:
-We utilized three markers (an ArUco marker, a colored marker, and a Unity logo), and conducted multiple trials across different marker and camera settings to gather comprehensive data.
+We set up three markers (an ArUco marker, a colored marker, and a Unity logo), and two environments (virtual 3D space in Unity and real-world lab environment. We then conducted multiple trials across different marker and environment combinations as well as camera settings to gather comprehensive data.
 
 #### Markers for Movement Tracking:
 Each marker was attached to an AR headset to track user position and orientation within a controlled trajectory in a simulated environment and along a fixed path in our lab.
