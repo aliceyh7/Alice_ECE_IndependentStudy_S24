@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Headset', 'Marker']
+
+roboflow:
+  workspace: unitylogo1
+  project: colored-marker-real
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/unitylogo1/colored-marker-real/dataset/1
