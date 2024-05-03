@@ -13,6 +13,8 @@ We set up three markers (an ArUco marker, a colored marker, and a Unity logo), a
 
 #### Markers for Movement Tracking:
 Each marker was attached to an AR headset to track user position and orientation within a controlled trajectory in a simulated environment and along a fixed path in our lab.
+<img width="290" alt="Screenshot 2024-05-03 at 12 08 20 PM" src="https://github.com/aliceyh7/Alice_ECE_IndependentStudy_S24/assets/167914381/032d05f4-da73-4ddb-997d-f7e1b91abac6">
+<img width="682" alt="Screenshot 2024-05-03 at 12 08 31 PM" src="https://github.com/aliceyh7/Alice_ECE_IndependentStudy_S24/assets/167914381/df5c4796-1920-42ac-b245-c86125bebdcc">
 
 ### Data Analysis:
 We employed YOLOv5 neural network models and OpenCV Toolbox for analyzing the data collected.
