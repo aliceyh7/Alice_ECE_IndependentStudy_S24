@@ -1,8 +1,6 @@
 # IoT Camera-Assisted Localization for AR in Simulated and Real-World Environments
 
-This repository holds the code I write in the Spring 2024 semester as a part of the Duke ECE Independent Study.
-Evaluate the precision of user position detection in both Unity-based simulated 3D spaces and real-world lab environments.
-
+This repository holds the code I write in the Spring 2024 semester as a part of my Duke ECE Independent Study.
 
 ## Research Overview:
 
@@ -34,7 +32,15 @@ We employed YOLOv5 neural network models and OpenCV Toolbox for analyzing the da
   
 - `yolov5_marker1_unity.ipynb`: Analyzes the YOLOv5 model's performance on ArUco marker detection using only simulated data from Unity
   
+- `yolov5_marker2_combined.ipynb`: Analyzes the YOLOv5 model's performance on colored marker detection using a mix of simulated and real-world data
+  
+- `yolov5_marker2_realworld.ipynb`: Analyzes the real-world performance of the YOLOv5 model for the colored marker detection
+  
 - `yolov5_marker2_unity.ipynb`: Analyzes the YOLOv5 model's performance on the colored marker detection using only simulated data from Unity
+
+- `yolov5_marker3_combined.ipynb`: Analyzes the YOLOv5 model's performance on Unity Logo marker detection using a mix of simulated and real-world data
+  
+- `yolov5_marker3_realworld.ipynb`: Analyzes the real-world performance of the YOLOv5 model for Unity Logo marker detection
   
 - `yolov5_marker3_unity.ipynb`: Analyzes the YOLOv5 model's performance on the Unity logo marker detection using only simulated data from Unity
   
